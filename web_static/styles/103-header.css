@@ -1,0 +1,21 @@
+/* Add specific styles for the header */
+.logo {
+  /* Add appropriate styles for the logo */
+}
+
+/* Add appropriate styles for header tags */
+header h1 {
+  font-size: 24px;
+}
+
+header h2 {
+  font-size: 18px;
+}
+
+header h3 {
+  font-size: 16px;
+}
+
+header h4 {
+  font-size: 14px;
+}

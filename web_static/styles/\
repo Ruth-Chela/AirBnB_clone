@@ -1,0 +1,19 @@
+.places {
+  margin-top: 40px;
+}
+
+.places h1 {
+  margin-bottom: 20px;
+}
+
+.places article {
+  margin-bottom: 40px;
+}
+
+.places h2 {
+  margin-top: 20px;
+}
+
+.places ul li {
+  margin-top: 10px;
+}

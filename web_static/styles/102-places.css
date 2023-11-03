@@ -1,0 +1,45 @@
+section.places article {
+  margin-bottom: 20px;
+}
+
+section.places article h2 {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+  section.places article {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .price_by_night {
+    margin-bottom: 10px;
+  }
+  
+  .information {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  
+  .information div {
+    flex: 0 0 50%;
+    margin-bottom: 10px;
+  }
+  
+  .user {
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    margin-bottom: 10px;
+  }
+  
+  .amenities {
+    margin-bottom: 10px;
+  }
+  
+  .reviews {
+    margin-bottom: 10px;
+  }
+}

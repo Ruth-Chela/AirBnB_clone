@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.logo {
+  width: 200px;
+  height: 100px;
+  background-color: #ccc;
+}
+
+.locations, .amenities {
+  margin-bottom: 20px;
+}
+
+.popover {
+  display: none;
+}
+
+.fake-text {
+  display: none;
+}
+
+.price_by_night {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.information {
+  margin-bottom: 10px;
+}
+
+.user {
+  margin-bottom: 10px;
+}
+
+.description {
+  margin-bottom: 10px;
+}
+
+.amenities {
+  margin-bottom: 10px;
+}
+
+.reviews {
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}

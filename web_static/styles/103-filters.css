@@ -1,0 +1,50 @@
+/* Add specific styles for the filters section */
+.filters {
+  margin-bottom: 20px;
+}
+
+.filters h2 {
+  margin-bottom: 10px;
+}
+
+.popover {
+  display: none;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+}
+
+.filters:hover .popover {
+  display: block;
+}
+
+/* Improve accessibility for the popover */
+.popover ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.popover li {
+  margin-bottom: 5px;
+}
+
+/* Add appropriate styles for the search button */
+.search-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+.search-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+}

@@ -1,0 +1,26 @@
+section.filters {
+  margin-bottom: 20px;
+}
+
+section.filters h3 {
+  margin-bottom: 10px;
+}
+
+section.filters .popover {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .filters {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .search-button {
+    margin-top: 10px;
+  }
+  
+  .filters .popover {
+    display: block;
+  }
+}
